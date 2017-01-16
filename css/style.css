@@ -67,8 +67,19 @@ body {
     background-color: rgba(68, 70, 75, 0.5);
 }
 
-input{
+input[type=text], input[type=password]
+{
     width: 276px;
     height: 34px;
     margin: 20px 141px;
+}
+
+input[type=checkbox]
+{
+    margin-left: 141px;
+}
+
+input[type=submit]
+{
+    margin: 20px 203px 63px 206px;
 }
