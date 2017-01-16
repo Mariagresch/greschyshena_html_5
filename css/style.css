@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneue-thin-webfont.eot');
+    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 1215px;
+    margin: 0 auto;
+    }
+
+.layout {
+    background-image: url(../img/2.png);
+    background-repeat: no-repeat;
+    display: block;
+    min-height: 1000px;
+    min-width: 1215px;
+
+
+}
+.menu{
+    background-image: url(../img/1.png);
+    width: 1215px;
+    height: 37px;
+}
+
+.menu li {
+    display: inline-block;
+    }
+
+.menu li:first-child {
+    margin-left: 440px;
+}
+
+.menu a{
+    padding: 16px 12px 7px 12px;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    font-size: 14px;
+    color: #60b5ed;
+
+}
+
+.menu a:hover{
+    background-color: #4eabda;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.cadastre {
+    position: absolute;
+    margin: 150px 300px 750px 354px; 
+    width: 560px;
+    height: 60px;
+    background-color: rgba(68, 70, 75, 0.5);
+}
+
+.FB {
+    position: absolute;
+    margin: 215px 300px 750px 354px;
+    width: 560px;
+    height: 60px;
+    background-color: rgba(68, 70, 75, 0.5);
+}
+
+input{
+    width: 276px;
+    height: 34px;
+    margin: 20px 141px;
+}
