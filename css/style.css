@@ -63,7 +63,7 @@ body {
     position: absolute;
     margin: 215px 300px 750px 354px;
     width: 560px;
-    height: 550px;
+    height: 600px;
     background-color: rgba(68, 70, 75, 0.5);
 }
 
@@ -82,4 +82,9 @@ input[type=checkbox]
 input[type=submit]
 {
     margin: 20px 203px 63px 206px;
+}
+
+.submittext {
+    font-size: 11px;
+
 }
