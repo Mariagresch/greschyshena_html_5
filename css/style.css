@@ -20,9 +20,8 @@ body {
     display: block;
     min-height: 1000px;
     min-width: 1215px;
-
-
 }
+
 .menu{
     background-image: url(../img/1.png);
     width: 1215px;
@@ -54,17 +53,17 @@ body {
 
 .cadastre {
     position: absolute;
-    margin: 150px 300px 750px 354px; 
+    margin: 150px 300px 750px 354px;
     width: 560px;
     height: 60px;
     background-color: rgba(68, 70, 75, 0.5);
 }
 
-.FB {
+.secondwindow {
     position: absolute;
     margin: 215px 300px 750px 354px;
     width: 560px;
-    height: 60px;
+    height: 550px;
     background-color: rgba(68, 70, 75, 0.5);
 }
 
