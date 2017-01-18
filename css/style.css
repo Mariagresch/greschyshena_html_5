@@ -22,6 +22,12 @@ body {
     margin: 0 auto;
 }
 
+.layout-center-wrapper:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 header{
     background-image: url(../img/1.png);
     height: 36px;
@@ -44,7 +50,7 @@ ul a{
     padding: 11px 14px;
     display: block;
     text-decoration: none;
-    font-family: 'Tahoma', sans-serif;
+    font-family: 'Helvetica Neue', 'Tahoma', sans-serif;
     font-size: 14px;
     color: #60b5ed;
 }
@@ -73,7 +79,6 @@ li:nth-of-type(6) a:before{
 
 li:last-of-type{
     float: right;
-
     height: 36px;
     background-image: linear-gradient(#51b0dc, #2e7ac4);
     color: white;
@@ -87,25 +92,43 @@ li:last-of-type a{
     padding: 0 4px;
     padding-top: 11px;
 }
+
 li:last-of-type a:hover{
     text-decoration: none;
     background-color: transparent;
 }
 
 .cadastre {
-    position: absolute;
-    margin: 150px 300px 750px 354px;
     width: 560px;
-    height: 60px;
-    background-color: rgba(68, 70, 75, 0.5);
+    margin: 0 auto;
+    margin-top: 550px;
+    margin-left: 353px;
+    padding-top: 15px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    font-size: 24px;
+    text-align: center;
 }
 
-.secondwindow {
-    position: absolute;
-    margin: 215px 300px 750px 354px;
+.FB {
+    margin-top: 2px;
+    margin-left: 353px;
     width: 560px;
     height: 600px;
-    background-color: rgba(68, 70, 75, 0.5);
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.fb-link{
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    width: 280px;
+    height: 65px;
+}
+
+.ou-line{
+    margin-top: 30px;
 }
 
 input[type=text], input[type=password]
