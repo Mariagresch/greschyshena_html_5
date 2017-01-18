@@ -158,12 +158,14 @@ input[type=checkbox]
 
 input[type=submit]
 {
-    margin: 20px 203px 63px 206px;
+    margin: 20px 203px 0 206px;
     background-color: #50aedb;
     color: #ccc;
 }
 
 .submittext {
+    display: inline-block;
+    margin-left: 123px;
     font-size: 11px;
     font-family: 'Helvetica Neue', 'Tahoma', sans-serif;
     color: #ccc;
