@@ -138,7 +138,7 @@ input[type=text], input[type=password]
     background-color: #101;
 }
 
-input:hover
+input:focus
 {
     background-color: #1b5288;
     color:#ccc;
